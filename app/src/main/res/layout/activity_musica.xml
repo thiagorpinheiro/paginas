@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Musica">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolbarMusica"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="259dp"
+        android:orientation="horizontal"
+        tools:context=".Musica">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/idCardView"
+            android:layout_width="190dp"
+            android:layout_height="259dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="@color/colorAccent"
+            card_view:cardCornerRadius="4dp"
+            card_view:contentPadding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="177dp"
+                android:layout_gravity="left"
+                android:src="@drawable/bk" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:orientation="vertical"
+            tools:context=".Musica">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/idCardView2"
+                android:layout_width="190dp"
+                android:layout_height="400dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorAccent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="177dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/cazuza" />
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
